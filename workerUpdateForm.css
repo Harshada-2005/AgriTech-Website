@@ -1,0 +1,90 @@
+/* Style for the update container */
+.update-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the update form */
+.update-form input[type="text"],
+.update-form input[type="password"],
+.update-form input[type="email"],
+.update-form input[type="button"],
+.update-form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style for the submit button */
+.update-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Style for the button button */
+.update-form input[type="button"] {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Style for the submit button on hover */
+.update-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style for the form heading */
+.update-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Style for the form input labels */
+.update-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Style for the link to login */
+.update-form a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Style for the link to login on hover */
+.update-form a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+
+.bell-icon {
+    fill: #000;
+    /* Change the color of the bell icon */
+    width: 24px;
+    /* Adjust the width of the bell icon */
+    height: 24px;
+    /* Adjust the height of the bell icon */
+}
+
+/* Adjust the width of columns */
+.col-5,
+.col-6 {
+    flex-grow: 1;
+}
